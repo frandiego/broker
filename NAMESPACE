@@ -1,1 +1,9 @@
 exportPattern("^[[:alpha:]]+")
+
+# functions from others packages
+importFrom("tidyquant", tq_get)
+importFrom("timetk", tk_xts)
+importFrom("magrittr","%>%")
+importFrom("dygraphs",dygraph)
+
+
